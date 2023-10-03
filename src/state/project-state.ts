@@ -1,5 +1,5 @@
-import { Project, ProjectStatus } from "../models/project.js";
-import { Autobind } from "../decorators/autobind.js";
+import { Project, ProjectStatus } from "../models/project";
+import { Autobind } from "../decorators/autobind";
 
 // Project State Management
 type Listener<T> = (items: T[]) => void;
